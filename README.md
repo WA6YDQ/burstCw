@@ -18,7 +18,7 @@ CW burst encoder, specifically the MX-4495 component.
  writing to EEPROM), Playback buffer empty (8 flashes).
 
 The keying transistor can be any garden variety NPN. A 2N3904
-will work just fine. Tie the base thru a 1K 1/4 resistor to pin 13
+will work just fine. Tie the base thru a 1K 1/4 watt resistor to pin 13
 on the Uno. The base goes to ground and the collector will be tied
 to the transmitter PTT/KEY line.
 
