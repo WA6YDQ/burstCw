@@ -9,9 +9,13 @@ CW burst encoder, specifically the MX-4495 component.
  that is tied to the KEY line. 
 
  Button 1:  Play/Record (Short press/Long press)
+ 
  Button 2:  DOT
+ 
  Button 3:  Space
+ 
  Button 4:  DASH
+ 
 
  LED: Show power on (3 flashes), Play (continous on),
  Record Start (2 flashes), Record Stop (flashes while 
@@ -19,7 +23,7 @@ CW burst encoder, specifically the MX-4495 component.
 
 The keying transistor can be any garden variety NPN. A 2N3904
 will work just fine. Tie the base thru a 1K 1/4 watt resistor to pin 13
-on the Uno. The base goes to ground and the collector will be tied
+on the Uno. The emitter goes to ground and the collector will be tied
 to the transmitter PTT/KEY line.
 
 This burst encoder transmits a cw message at 300 WPM. The message is 
