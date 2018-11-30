@@ -4,7 +4,7 @@
 *  This is a cw burst encoder based on the AN/GRA-71
 * CW burst encoder, specifically the MX-4495 component.
 *
-* There are 5 buttons and an LED. The output to the 
+* There are 4 buttons and an LED. The output to the 
 * transmitter is an NPN transistor as an open collector
 * that is tied to the KEY line. 
 *
